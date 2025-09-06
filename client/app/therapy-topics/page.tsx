@@ -62,13 +62,13 @@ export default function TherapyTopics() {
         </div>
       </section>
 
-      {/* Meet Abby Section */}
+      {/* Meet MindMate Section */}
       <section className="py-20 bg-gradient-to-br from-purple-900 via-purple-800 to-indigo-900 text-white">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <div className="mb-8">
             <span className="text-sm bg-white/20 px-3 py-1 rounded-full">Popular Choice</span>
           </div>
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">Meet Abby, Your AI Therapist</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">Meet MindMate, Your AI Therapist</h2>
           <p className="text-lg opacity-90 mb-8 max-w-2xl mx-auto">
             Our cutting-edge AI therapist can help analyze and understand your concerns and provide evidence-based
             therapeutic approaches tailored to your specific needs. Available 24/7, always at your fingertips.
@@ -102,7 +102,7 @@ export default function TherapyTopics() {
         <div className="max-w-6xl mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div>
-              <h3 className="font-bold text-gray-900 mb-4">Abby</h3>
+              <h3 className="font-bold text-gray-900 mb-4">MindMate</h3>
               <p className="text-gray-600 text-sm">
                 Experience round-the-clock support and guidance with a 24/7 AI Therapist, always on your fingertips to
                 help you navigate life's challenges.

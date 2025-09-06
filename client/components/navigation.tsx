@@ -7,9 +7,23 @@ import { useState } from "react"
 
 export function Navigation() {
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null)
+  const [selectedLanguage, setSelectedLanguage] = useState("English")
 
   const handleDropdownToggle = (dropdown: string) => {
     setActiveDropdown(activeDropdown === dropdown ? null : dropdown)
+  }
+
+  const languages = [
+    { code: "en", name: "English" },
+    { code: "hi", name: "हिंदी" },
+    { code: "ta", name: "தமிழ்" },
+    { code: "ml", name: "മലയാളം" },
+    { code: "kn", name: "ಕನ್ನಡ" },
+  ]
+
+  const handleLanguageChange = (language: string) => {
+    setSelectedLanguage(language)
+    setActiveDropdown(null)
   }
 
   return (
@@ -17,7 +31,7 @@ export function Navigation() {
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <div className="flex items-center space-x-8">
           <Link href="/" className="text-xl font-semibold">
-            Abby
+            MindMate
           </Link>
           <nav className="hidden md:flex items-center space-x-6">
             <div className="relative">
@@ -75,14 +89,35 @@ export function Navigation() {
               <ChevronDown className="w-4 h-4" />
             </button>
             <button className="text-sm hover:text-gray-300">Enterprise</button>
+            <Link href="/dashboard" className="text-sm hover:text-gray-300">
+              Dashboard
+            </Link>
           </nav>
         </div>
         <div className="flex items-center space-x-4">
-          <button className="flex items-center space-x-1 text-sm hover:text-gray-300">
-            <Globe className="w-4 h-4" />
-            <span>English</span>
-            <ChevronDown className="w-4 h-4" />
-          </button>
+          <div className="relative">
+            <button
+              className="flex items-center space-x-1 text-sm hover:text-gray-300"
+              onClick={() => handleDropdownToggle("language")}
+            >
+              <Globe className="w-4 h-4" />
+              <span>{selectedLanguage}</span>
+              <ChevronDown className="w-4 h-4" />
+            </button>
+            {activeDropdown === "language" && (
+              <div className="absolute top-full right-0 mt-2 w-40 bg-white text-gray-900 rounded-md shadow-lg z-50">
+                {languages.map((lang) => (
+                  <button
+                    key={lang.code}
+                    className="block w-full text-left px-4 py-2 text-sm hover:bg-gray-100"
+                    onClick={() => handleLanguageChange(lang.name)}
+                  >
+                    {lang.name}
+                  </button>
+                ))}
+              </div>
+            )}
+          </div>
           <Link href="/login" className="text-sm hover:text-gray-300">
             Login
           </Link>
