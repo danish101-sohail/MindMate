@@ -110,7 +110,7 @@ export default function Home() {
                 ))}
               </div>
               <p className="text-gray-600 mb-4">
-                "MindMate has been incredibly helpful during my difficult times. Having someone to talk to 24/7 has made
+                "MindMate.ai has been incredibly helpful during my difficult times. Having someone to talk to 24/7 has made
                 such a difference."
               </p>
               <p className="font-semibold text-gray-900">- Sarah M.</p>
@@ -137,7 +137,7 @@ export default function Home() {
                 ))}
               </div>
               <p className="text-gray-600 mb-4">
-                "MindMate provides practical advice and emotional support whenever I need it. It's like having a therapist
+                "MindMate.ai provides practical advice and emotional support whenever I need it. It's like having a therapist
                 in my pocket."
               </p>
               <p className="font-semibold text-gray-900">- Jessica L.</p>
@@ -153,35 +153,35 @@ export default function Home() {
           <div className="space-y-8">
             <div className="border-b border-gray-200 pb-8">
               <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                Is MindMate a replacement for professional therapy?
+                Is MindMate.ai a replacement for professional therapy?
               </h3>
               <p className="text-gray-600">
-                MindMate is designed to provide support and guidance, but it's not a replacement for professional mental
+                MindMate.ai is designed to provide support and guidance, but it's not a replacement for professional mental
                 health care. If you're experiencing severe mental health issues, we recommend consulting with a licensed
                 therapist or counselor.
               </p>
             </div>
             <div className="border-b border-gray-200 pb-8">
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">Is my conversation with MindMate private?</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">Is my conversation with MindMate.ai private?</h3>
               <p className="text-gray-600">
                 Yes, your conversations are completely private and anonymous. We don't store personal information or
                 share your conversations with anyone.
               </p>
             </div>
             <div className="border-b border-gray-200 pb-8">
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">How much does MindMate cost?</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">How much does MindMate.ai cost?</h3>
               <p className="text-gray-600">
-                MindMate offers both free and premium plans. The free plan includes basic chat functionality, while premium
+                MindMate.ai offers both free and premium plans. The free plan includes basic chat functionality, while premium
                 plans offer additional features and unlimited conversations.
               </p>
             </div>
             <div className="border-b border-gray-200 pb-8">
               <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                What types of issues can I discuss with MindMate?
+                What types of issues can I discuss with MindMate.ai?
               </h3>
               <p className="text-gray-600">
                 You can discuss a wide range of everyday problems including stress, relationships, work issues, anxiety,
-                and general life challenges. MindMate is here to listen and provide supportive guidance.
+                and general life challenges. MindMate.ai is here to listen and provide supportive guidance.
               </p>
             </div>
           </div>
@@ -193,7 +193,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-4">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <h3 className="text-2xl font-bold mb-4">MindMate</h3>
+              <h3 className="text-2xl font-bold mb-4">MindMate.ai</h3>
               <p className="text-gray-400 mb-4">AI Therapy in your pocket. Available 24/7 for support and guidance.</p>
             </div>
             <div>
@@ -268,7 +268,7 @@ export default function Home() {
             </div>
           </div>
           <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 MindMate. All rights reserved.</p>
+            <p>&copy; 2024 MindMate.ai. All rights reserved.</p>
           </div>
         </div>
       </footer>

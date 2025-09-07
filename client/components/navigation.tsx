@@ -31,7 +31,7 @@ export function Navigation() {
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <div className="flex items-center space-x-8">
           <Link href="/" className="text-xl font-semibold">
-            MindMate
+            MindMate.ai
           </Link>
           <nav className="hidden md:flex items-center space-x-6">
             <div className="relative">
@@ -44,9 +44,6 @@ export function Navigation() {
               </button>
               {activeDropdown === "therapy" && (
                 <div className="absolute top-full left-0 mt-2 w-48 bg-white text-gray-900 rounded-md shadow-lg z-50">
-                  <Link href="/types-of-therapy" className="block px-4 py-2 text-sm hover:bg-gray-100">
-                    All Types of Therapy
-                  </Link>
                   <Link href="/types-of-therapy#cbt" className="block px-4 py-2 text-sm hover:bg-gray-100">
                     Cognitive Behavioral Therapy
                   </Link>
@@ -55,6 +52,9 @@ export function Navigation() {
                   </Link>
                   <Link href="/types-of-therapy#humanistic" className="block px-4 py-2 text-sm hover:bg-gray-100">
                     Humanistic Therapy
+                  </Link>
+                  <Link href="/types-of-therapy" className="block px-4 py-2 text-sm hover:bg-gray-100">
+                    All Types of Therapy
                   </Link>
                 </div>
               )}
@@ -69,9 +69,6 @@ export function Navigation() {
               </button>
               {activeDropdown === "topics" && (
                 <div className="absolute top-full left-0 mt-2 w-48 bg-white text-gray-900 rounded-md shadow-lg z-50">
-                  <Link href="/therapy-topics" className="block px-4 py-2 text-sm hover:bg-gray-100">
-                    All Topics
-                  </Link>
                   <Link href="/therapy-topics#depression" className="block px-4 py-2 text-sm hover:bg-gray-100">
                     Depression
                   </Link>
@@ -80,6 +77,9 @@ export function Navigation() {
                   </Link>
                   <Link href="/therapy-topics#relationships" className="block px-4 py-2 text-sm hover:bg-gray-100">
                     Relationships
+                  </Link>
+                  <Link href="/therapy-topics" className="block px-4 py-2 text-sm hover:bg-gray-100">
+                    All Topics
                   </Link>
                 </div>
               )}

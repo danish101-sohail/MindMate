@@ -7,7 +7,7 @@ import { Suspense } from "react"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "MindMate - AI Therapy In Your Pocket",
+  title: "MindMate.ai - AI Therapy In Your Pocket",
   description:
     "Experience round-the-clock support and guidance with a 24/7 AI Therapist, always on your fingertips to help you navigate life's challenges.",
   generator: "v0.app",
